@@ -61,6 +61,14 @@ main {
     align-items: center;
 }
 
+section {
+    max-width: 80rch;
+}
+
+.firstSectionHeading {
+    margin-top: 0;
+}
+
 aside {
     visibility: hidden;
     flex: 1;
