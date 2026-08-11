@@ -41,18 +41,18 @@ header {
 }
 
 .mainNavContainer {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
 }
 
 nav {
     display: flex;
-    flex-direction: column;
-    min-width: fit-content;
-    flex: 1;
-    align-items: flex-end;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
 }
 
 main {
