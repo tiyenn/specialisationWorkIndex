@@ -8,7 +8,7 @@
 :root{
     /* basic 2-bit palette from 1bit Monitor Glow Palette by Polyducks */
     /* https://lospec.com/palette-list/1bit-monitor-glow */
-    --colour-1: #222323;
+    --colour-1: #a6b3e8;
     --colour-2: #f0f6f0;
 }
 
@@ -18,7 +18,7 @@
 @media (prefers-color-scheme: dark) {
     :root{
         --colour-1: #f0f6f0;
-        --colour-2: #222323;
+        --colour-2: #a6b3e8;
     }
 }
 
