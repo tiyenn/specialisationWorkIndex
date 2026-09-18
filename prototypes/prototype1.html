@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Toddler Synthesiser</title>
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://unpkg.com/tone"></script>
+    <script src="prototype.js" defer></script>
+</head>
+
+<body>
+
+    <dialog id="intro-modal">
+        <h2>Let's Make Some Music!</h2>
+        <p>Press the colourful buttons!</p>
+        <button id="intro-modal-close">Ok!</button>
+    </dialog>
+
+    <header>
+        <h1>My Baby Music Synthesiser!</h1>
+    </header>
+
+    <main>
+
+        <section class="game">
+            <h2 id="instruction">Press any button!</h2>
+
+            <p id="score">0</p>
+
+            <div class="keys">
+
+                <button
+                    class="music-key red"
+                    data-note="C4"
+                    data-colour="red">
+                </button>
+
+                <button
+                    class="music-key blue"
+                    data-note="D4"
+                    data-colour="blue">
+                </button>
+
+                <button
+                    class="music-key yellow"
+                    data-note="E4"
+                    data-colour="yellow">
+                </button>
+
+                <button
+                    class="music-key green"
+                    data-note="G4"
+                    data-colour="green">
+                </button>
+
+            </div>
+
+            <button id="random-button">
+                Give me a challenge!
+            </button>
+
+        </section>
+
+    </main>
+
+</body>
+</html>>
