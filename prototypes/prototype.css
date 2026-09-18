@@ -90,7 +90,7 @@ footer {
     header {
         margin-block-end: 1rem;
     }
-    .mainNavContainer {
+    .mainContainer {
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
