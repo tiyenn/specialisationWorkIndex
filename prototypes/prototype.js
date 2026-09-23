@@ -53,10 +53,10 @@ let randomNumber = Math.floor(
 );
 
 targetKey = keys[randomNumber];
-let colour = targetKey.dataset.colour;
+let note = targetKey.dataset.note;
 
 // instruction - what to press
-instruction.innerHTML = "Press " + colour + "!";
+instruction.innerHTML = "Press " + note + "!";
 
 }
 function playNote(e){
@@ -106,6 +106,6 @@ key.addEventListener("click", function(){
 
 });
 
-////// Random Button
+////// random Button
 
 randomButton.addEventListener("click", chooseRandomKey);
